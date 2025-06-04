@@ -16,12 +16,17 @@ body {
 }
 
 .modal {
+  padding:8px;
+ display: flex;
+ flex-direction: row;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
+.button0{
 
+}
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -48,8 +53,15 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
-}
+  display: flex;
+  flex-direction: flex-end;
 
+}
+.heade{
+  display: flex;
+  padding: 8px;
+  justify-content: space-between;
+}
 button {
   cursor: pointer;
   padding: 8px 16px;
@@ -66,4 +78,7 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+.text{
+  padding: 8px;
 }
